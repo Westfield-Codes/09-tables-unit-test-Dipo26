@@ -6,9 +6,14 @@ th {
   vertical-align:top;
 }
 
-td {
+td { 
+  text-align: center;
     padding:5px;
     vertical-align:center;
+}
+ 
+td:nth-child(2){
+  text-align: left;
 }
 
 th {
